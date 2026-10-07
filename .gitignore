@@ -15,11 +15,28 @@ build/
 venv/
 env/
 ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Temporary / Scratch Diffs
+*.diff
 
 # Data & Storage
-data/chroma_db/
-data/uploads/*
+data/chroma_db/**
+!data/chroma_db/.gitkeep
+data/uploads/**
 !data/uploads/.gitkeep
+data/bm25/**
+!data/bm25/.gitkeep
+data/temp/**
+!data/temp/.gitkeep
+data/sessions.sqlite*
+data/*.sqlite*
+
+# Evaluation runtime session databases
+evaluation/results/*.sqlite*
+evaluation/results/baselines/*.sqlite*
 
 # IDE
 .vscode/
@@ -40,7 +57,6 @@ logs/
 .pytest_cache/
 .coverage
 htmlcov/
-
 
 # Render (optional - if you want to test locally)
 # render.yaml

@@ -1,0 +1,10 @@
+Enterprise Artificial Intelligence Governance & Ethics Charter
+
+1. Foundational Governance Principles
+All machine learning and generative artificial intelligence models deployed in production must adhere to the core principles of fairness, transparency, privacy preservation, and human accountability.
+
+2. Algorithmic Bias Auditing
+High-impact decision support algorithms must undergo quarterly demographic parity audits. The maximum permitted disparate impact ratio variance is 0.05 across protected demographic categories. Any model exceeding this threshold must be suspended within 24 hours.
+
+3. Data Subject Rights and Model Unlearning
+In accordance with global data protection standards, when an individual exercises their right to erasure, fine-tuned model checkpoints containing personal identifiable information (PII) must be purged or retrained within 45 days.

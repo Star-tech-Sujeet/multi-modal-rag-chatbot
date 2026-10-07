@@ -14,6 +14,7 @@ from fastapi.exceptions import RequestValidationError
 
 from .api import router
 from .config import settings
+from .providers.base import ProviderError
 
 # Configure logging
 logging.basicConfig(
@@ -159,17 +160,41 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
     )
 
 
+@app.exception_handler(ProviderError)
+async def provider_exception_handler(request: Request, exc: ProviderError):
+    """Handle AI Provider specific exceptions (quotas, availability, rate limits)."""
+    logger.error(f"Provider exception ({exc.provider}): {exc.message}")
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "error": "provider_error",
+            "provider": exc.provider,
+            "message": exc.message,
+            "details": exc.details or None
+        }
+    )
+
+
 @app.exception_handler(HTTPException)
 async def http_exception_handler(request: Request, exc: HTTPException):
     """Handle HTTP exceptions with consistent format."""
     logger.warning(f"HTTP exception: {exc.status_code} - {exc.detail}")
-    
+
+    if isinstance(exc.detail, dict):
+        err_code = exc.detail.get("error", f"http_{exc.status_code}")
+        msg = exc.detail.get("message", str(exc.detail))
+        details = exc.detail.get("details", exc.detail)
+    else:
+        err_code = f"http_{exc.status_code}"
+        msg = str(exc.detail)
+        details = None
+
     return JSONResponse(
         status_code=exc.status_code,
         content={
-            "error": f"http_{exc.status_code}",
-            "message": exc.detail if isinstance(exc.detail, str) else str(exc.detail),
-            "details": exc.detail if isinstance(exc.detail, dict) else None
+            "error": err_code,
+            "message": msg,
+            "details": details
         }
     )
 

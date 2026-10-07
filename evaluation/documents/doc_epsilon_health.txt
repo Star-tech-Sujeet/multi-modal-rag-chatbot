@@ -1,0 +1,10 @@
+Clinical Trial Protocol Summary: Protocol EP-902
+
+1. Study Synopsis and Objectives
+Protocol EP-902 is a multicenter, randomized, double-blind, placebo-controlled Phase III clinical trial evaluating the efficacy and safety of OncoZap (OZ-401) in patients with advanced refractory non-small cell lung carcinoma.
+
+2. Patient Enrollment and Cohort Characteristics
+The trial enrolled 1,200 adult patients across 48 investigative sites in 12 countries. Inclusion criteria required documented disease progression following first-line platinum-based chemotherapy and confirmed PD-L1 expression levels exceeding 50%.
+
+3. Primary Endpoints and Statistical Analysis
+The dual primary efficacy endpoints are Progression-Free Survival (PFS) and Overall Survival (OS). In the interim analysis conducted at Month 18, median PFS in the treatment group was 11.4 months compared to 5.2 months in the control arm (Hazard Ratio = 0.54, p < 0.001). Adverse events of Grade 3 or higher were documented in 14.2% of patients.

@@ -1,0 +1,551 @@
+[
+  {
+    "filename": "csv_customer_churn_metrics.csv",
+    "file_type": "csv",
+    "size_bytes": 264,
+    "sha256": "61d71bdb2f2119a087346d5459cb5f98ed4c99d4c95c9bd0a069afd2f7b056e1",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Customer Churn Metrics"
+  },
+  {
+    "filename": "csv_datacenter_servers.csv",
+    "file_type": "csv",
+    "size_bytes": 237,
+    "sha256": "ea64bde0bf2a8b6f67eb5e7871f7dbbfde4d9d44813ccf60264338f26a22095e",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Datacenter Servers"
+  },
+  {
+    "filename": "csv_employee_salaries.csv",
+    "file_type": "csv",
+    "size_bytes": 324,
+    "sha256": "121b44a99c77f6b7da69b4295ed3addd86e375ec2028db9db375b508993967fe",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Employee Salaries"
+  },
+  {
+    "filename": "csv_energy_consumption.csv",
+    "file_type": "csv",
+    "size_bytes": 185,
+    "sha256": "225fd479ec1b2c3788ad9299005d22b30627f1bf8d7a458d5ad620f1f9de5d8f",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Energy Consumption"
+  },
+  {
+    "filename": "csv_hospital_admissions.csv",
+    "file_type": "csv",
+    "size_bytes": 261,
+    "sha256": "749aeaea5ae57235876ad985c75a2ffaafaff028f45dfd2e0a601068ce5b2550",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Hospital Admissions"
+  },
+  {
+    "filename": "csv_inventory_warehouse_stock.csv",
+    "file_type": "csv",
+    "size_bytes": 315,
+    "sha256": "13e5e67360ba7ae42f8424f417b228b705323c625ff5deedaf9e5ecd451d5e4e",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Inventory Warehouse Stock"
+  },
+  {
+    "filename": "csv_product_reviews.csv",
+    "file_type": "csv",
+    "size_bytes": 194,
+    "sha256": "784ba8e6105b32bb04cd77da57ccb73ff2107910696fe98ca8e735c96d989c82",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Product Reviews"
+  },
+  {
+    "filename": "csv_sales_regional_2024.csv",
+    "file_type": "csv",
+    "size_bytes": 400,
+    "sha256": "97107e22484809bc93671c5719867859a149dbb1d4bb7046c5f511586d6a0675",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Csv Sales Regional 2024"
+  },
+  {
+    "filename": "doc_alpha.txt",
+    "file_type": "txt",
+    "size_bytes": 605,
+    "sha256": "9cb67aab36808a4797416d9ce6e8d9eaba207a1d5f6a09c4bb2fd733c6d2a2ee",
+    "synthetic": true,
+    "provenance": "Baseline test document from initial phases",
+    "title": "Doc Alpha"
+  },
+  {
+    "filename": "doc_beta.txt",
+    "file_type": "txt",
+    "size_bytes": 567,
+    "sha256": "44326d06f8703f2daa3e44186fb68f09dbfb3994067f053d6dcac1381e3ad630",
+    "synthetic": true,
+    "provenance": "Baseline test document from initial phases",
+    "title": "Doc Beta"
+  },
+  {
+    "filename": "doc_delta_aerospace.txt",
+    "file_type": "txt",
+    "size_bytes": 926,
+    "sha256": "6ec27ff3c17f3a07a716c769fc6434e149b2cbdc43c75da9add93909ed921f59",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Delta Aerospace"
+  },
+  {
+    "filename": "doc_epsilon_health.txt",
+    "file_type": "txt",
+    "size_bytes": 1009,
+    "sha256": "f4ef5891f221891bda358b62c3118fe0bed5d44f73ae33c839af81ebbbcbd341",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Epsilon Health"
+  },
+  {
+    "filename": "doc_eta_hr_policy.txt",
+    "file_type": "txt",
+    "size_bytes": 893,
+    "sha256": "1fc3f176e4e2e35e48d285f71ee02f30572f26315729a25a301028f9b4de0532",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Eta Hr Policy"
+  },
+  {
+    "filename": "doc_gamma_energy.txt",
+    "file_type": "txt",
+    "size_bytes": 1085,
+    "sha256": "5461a0465be959c3f8b432885cf3f4776738da2bb6158d1ebf22124ecd8a5744",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Gamma Energy"
+  },
+  {
+    "filename": "doc_iota_telecom.txt",
+    "file_type": "txt",
+    "size_bytes": 914,
+    "sha256": "6d8a893da5c83dd4ec03cb79b902292f97e05fc7345a6aed1bbe98f3f0f7fa68",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Iota Telecom"
+  },
+  {
+    "filename": "doc_kappa_legal.txt",
+    "file_type": "txt",
+    "size_bytes": 883,
+    "sha256": "47fa36f76cc0146055a44c669aa0cf1a31c1c85c1ce9f0e86f74045467b02bb9",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Kappa Legal"
+  },
+  {
+    "filename": "doc_lambda_financial.txt",
+    "file_type": "txt",
+    "size_bytes": 858,
+    "sha256": "e59ded5b006e63a93c676a414a79ebe4b1b432bdca478eea2b03fe4dee7397c1",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Lambda Financial"
+  },
+  {
+    "filename": "doc_malicious_injection.txt",
+    "file_type": "txt",
+    "size_bytes": 494,
+    "sha256": "ebf645bdc2865556a4a445137c6c36accd66af1e8a2a5bdb9431a2fb47482e02",
+    "synthetic": true,
+    "provenance": "Baseline test document from initial phases",
+    "title": "Doc Malicious Injection"
+  },
+  {
+    "filename": "doc_mu_devops.txt",
+    "file_type": "txt",
+    "size_bytes": 954,
+    "sha256": "e19fa7147ba741c4a7ccbc0f74832442a0f22679befd8456f8ded54680f20672",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Mu Devops"
+  },
+  {
+    "filename": "doc_nu_biotech.txt",
+    "file_type": "txt",
+    "size_bytes": 873,
+    "sha256": "8cac29cc54e02114c84135f8db049d85ac3e34d68fb7dfc8d06fa51891b5b17b",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Nu Biotech"
+  },
+  {
+    "filename": "doc_omicron_compliance.txt",
+    "file_type": "txt",
+    "size_bytes": 836,
+    "sha256": "cf023a2b31e4a418a0555cc36a929a0759f76405e8c5e3372fe2a63adc9dbe9c",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Omicron Compliance"
+  },
+  {
+    "filename": "doc_pi_robotics.txt",
+    "file_type": "txt",
+    "size_bytes": 869,
+    "sha256": "c12fc37c2bdef8d36d69eefe6b89d245384c6d859d9d4415ab2a03ea13d07bf4",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Pi Robotics"
+  },
+  {
+    "filename": "doc_security_policy.txt",
+    "file_type": "txt",
+    "size_bytes": 717,
+    "sha256": "68219b579c357ef9a99aa41eefad9abcf9841fd899a6a2e9d69ed3dbd16a6101",
+    "synthetic": true,
+    "provenance": "Baseline test document from initial phases",
+    "title": "Doc Security Policy"
+  },
+  {
+    "filename": "doc_theta_ai_ethics.txt",
+    "file_type": "txt",
+    "size_bytes": 878,
+    "sha256": "96604bc7f9a9542cdca9ac78f16e080e76f1696723266f36231541a9eae8c75f",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Theta Ai Ethics"
+  },
+  {
+    "filename": "doc_xi_quantum.txt",
+    "file_type": "txt",
+    "size_bytes": 842,
+    "sha256": "b8c4fca751bdf5a5b66ea15c37fc71d881943b9c92cf100300c8d1168439e3f4",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Xi Quantum"
+  },
+  {
+    "filename": "doc_zeta_supply_chain.txt",
+    "file_type": "txt",
+    "size_bytes": 932,
+    "sha256": "ed3ed98099d270be87d05c2bdec524cb6302713d09f2758131ca013a530cff21",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Doc Zeta Supply Chain"
+  },
+  {
+    "filename": "docx_board_meeting_minutes.docx",
+    "file_type": "docx",
+    "size_bytes": 1221,
+    "sha256": "a972e1a6436dce6ae57139f0394cc8eecbf7423504eb8efbac39456fffd820ba",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Board Meeting Minutes"
+  },
+  {
+    "filename": "docx_incident_retrospective.docx",
+    "file_type": "docx",
+    "size_bytes": 1293,
+    "sha256": "e4a9a74466806f1b6c2ffea806dde0231b00b560c19146a64368f140d4bf257b",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Incident Retrospective"
+  },
+  {
+    "filename": "docx_marketing_strategy_2025.docx",
+    "file_type": "docx",
+    "size_bytes": 1260,
+    "sha256": "0e980a4fc30304b74fa0a283ed6bd716a395563ca41e479e45e7e95e372a58f7",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Marketing Strategy 2025"
+  },
+  {
+    "filename": "docx_patent_application_draft.docx",
+    "file_type": "docx",
+    "size_bytes": 1268,
+    "sha256": "d926df4bb6c2761dfc05ef20d12e6beec5fde4bb992b20dd78dd5496656f8e76",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Patent Application Draft"
+  },
+  {
+    "filename": "docx_product_spec_aurora.docx",
+    "file_type": "docx",
+    "size_bytes": 1226,
+    "sha256": "4bd361fb55afd50017d346d5d467f4d07e183d6266d4c7555f69ccbfb6af26e5",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Product Spec Aurora"
+  },
+  {
+    "filename": "docx_project_titan_charter.docx",
+    "file_type": "docx",
+    "size_bytes": 1235,
+    "sha256": "c8c7d24e80a7d8e116bd3c1570fed0d4888015e152a05d4f1675651437bbfc28",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Project Titan Charter"
+  },
+  {
+    "filename": "docx_security_audit_findings.docx",
+    "file_type": "docx",
+    "size_bytes": 1246,
+    "sha256": "fc4eb934e4a7e9faa9a69069fd084c7d078be0f2ad666690813a058ce646010c",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Security Audit Findings"
+  },
+  {
+    "filename": "docx_vendor_sla_agreement.docx",
+    "file_type": "docx",
+    "size_bytes": 1221,
+    "sha256": "6bcff6591a6ba961d8a6f7af2a0390945a9a60af1af8076647e380519c847f61",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Docx Vendor Sla Agreement"
+  },
+  {
+    "filename": "img_maintenance_sign.png",
+    "file_type": "png",
+    "size_bytes": 15934,
+    "sha256": "dd5ecbfc97a89c0aba8cba2f5089cd29f0bb44dbbe9289d6e37e31739ea7b5fe",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Img Maintenance Sign"
+  },
+  {
+    "filename": "img_medical_prescription_scan.png",
+    "file_type": "png",
+    "size_bytes": 16873,
+    "sha256": "667c60b7bf58274d658a0e1fbb1a7d800a0b4fa14ba60bb6992cd96698badf9f",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Img Medical Prescription Scan"
+  },
+  {
+    "filename": "img_network_topology.png",
+    "file_type": "png",
+    "size_bytes": 12998,
+    "sha256": "b7382ffcc4d5bca3fa8201dbb5975b3feda22726f650bbd6a41cc2c24d456a48",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Img Network Topology"
+  },
+  {
+    "filename": "img_quarterly_revenue_chart.png",
+    "file_type": "png",
+    "size_bytes": 9017,
+    "sha256": "44115dd3182516bbb8364316baef6cfbb7a8f0d6e58aad565721870701de2ba3",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Img Quarterly Revenue Chart"
+  },
+  {
+    "filename": "img_server_rack_diagram.png",
+    "file_type": "png",
+    "size_bytes": 10647,
+    "sha256": "693a597bf32692b5827bdcdfd769fb0ba6e923413907cbe67865dafa2a4118a0",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Img Server Rack Diagram"
+  },
+  {
+    "filename": "img_system_flowchart.png",
+    "file_type": "png",
+    "size_bytes": 12710,
+    "sha256": "c3a34fec1226f63cd79e5f8d2041e4f8c88d48f8b79845b040f17e2c13c02d9e",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Img System Flowchart"
+  },
+  {
+    "filename": "manifest.json",
+    "file_type": "json",
+    "size_bytes": 20284,
+    "sha256": "c5f7089ab6f2de0d362cbf4d87815e5d1c1544f791b69b07bfee28704787e5ae",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Manifest"
+  },
+  {
+    "filename": "pdf_autonomous_vehicle_safety.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3469,
+    "sha256": "72be2eab19c06f14fd6cb33c1f3b49737e0e5e5d4013857abf467c711d8b6424",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Autonomous Vehicle Safety"
+  },
+  {
+    "filename": "pdf_clinical_study_summary.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3563,
+    "sha256": "2fbcf78c03e0c0b168cff0d21897331346b57bbae0a08c0e0b402842245631c0",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Clinical Study Summary"
+  },
+  {
+    "filename": "pdf_cloud_migration_plan.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3521,
+    "sha256": "94b1737867ca1328458d46fb690a55fe3c79ae91e6876326196503d84d1a3d58",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Cloud Migration Plan"
+  },
+  {
+    "filename": "pdf_customer_satisfaction_survey.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3049,
+    "sha256": "753c55abe3d7ba8f072aa2ee498d74b16ed0653799f3fcf48d79595c4d46c506",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Customer Satisfaction Survey"
+  },
+  {
+    "filename": "pdf_cybersecurity_standard.pdf",
+    "file_type": "pdf",
+    "size_bytes": 4261,
+    "sha256": "012de6e6f689aab704adaf44e38de41863a0ac8911b01184f6a5a700c1f462dd",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Cybersecurity Standard"
+  },
+  {
+    "filename": "pdf_data_pipeline_specification.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3279,
+    "sha256": "775f121513627d5164d2cfe121da9ae441288960a6c997957470c52cd20adffc",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Data Pipeline Specification"
+  },
+  {
+    "filename": "pdf_employee_handbook_summary.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3273,
+    "sha256": "e5b5c2076695bd101010baf9f1405e3d616386c92a50123955ff83b022961964",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Employee Handbook Summary"
+  },
+  {
+    "filename": "pdf_environmental_impact_report.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3259,
+    "sha256": "71da4877b2f31b0dcab24baa5d11955b23e5a82a63223c1f5d5567e7adc9646b",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Environmental Impact Report"
+  },
+  {
+    "filename": "pdf_pharmaceutical_pipeline.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3306,
+    "sha256": "71c40f0b024d5d4eab400ab1927e05c21c0e1a106e454e5673f3839857f1174e",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Pharmaceutical Pipeline"
+  },
+  {
+    "filename": "pdf_q1_earnings.pdf",
+    "file_type": "pdf",
+    "size_bytes": 5307,
+    "sha256": "758a1e9ac0552b7534c7bd50c6813a13dff97f3f725f68640fec1198fc1621dd",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Q1 Earnings"
+  },
+  {
+    "filename": "pdf_q2_earnings.pdf",
+    "file_type": "pdf",
+    "size_bytes": 4939,
+    "sha256": "d67c6a1e1cdb35b8c314625335a6f3844b1d57c6a302c70289747f6900ac67b1",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Q2 Earnings"
+  },
+  {
+    "filename": "pdf_risk_management_framework.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3286,
+    "sha256": "ff15f4bfaea59b337e861a21322e76b7b701c2b7ca0eb52e577512819655b464",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Risk Management Framework"
+  },
+  {
+    "filename": "pdf_semiconductor_fab_roadmap.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3246,
+    "sha256": "f937c4363bef3afbedf4154fa447997aeaf229822a5c55a5de7b8d4807ebe6dd",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Semiconductor Fab Roadmap"
+  },
+  {
+    "filename": "pdf_smart_grid_architecture.pdf",
+    "file_type": "pdf",
+    "size_bytes": 3258,
+    "sha256": "bdd52e7e6c07beaee9ffb938eab40142879b7b87dbd31efc73b1034c2822da93",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Pdf Smart Grid Architecture"
+  },
+  {
+    "filename": "sqlite_ecommerce.db",
+    "file_type": "db",
+    "size_bytes": 12288,
+    "sha256": "a07e88a61f6a4c198e3e60edde5b0900c9d30a777a89c38d85707fb2dcbe3ae6",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Sqlite Ecommerce"
+  },
+  {
+    "filename": "sqlite_hospital.db",
+    "file_type": "db",
+    "size_bytes": 12288,
+    "sha256": "2d310c64c29547fd229ae9f6292539f330c0fcd0057fa60f5cf6fc4dc7627501",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Sqlite Hospital"
+  },
+  {
+    "filename": "sqlite_human_resources.db",
+    "file_type": "db",
+    "size_bytes": 12288,
+    "sha256": "fbb7a885721bd1c7719357cc36dae2ba4aeeb06d2c5086a0a1aad01e111f2629",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Sqlite Human Resources"
+  },
+  {
+    "filename": "sqlite_logistics.db",
+    "file_type": "db",
+    "size_bytes": 8192,
+    "sha256": "13cf6599041b1f6fb2aedd33a56cfe72876ec5d0cac292f48e6e49c83897313f",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Sqlite Logistics"
+  },
+  {
+    "filename": "sqlite_manufacturing.db",
+    "file_type": "db",
+    "size_bytes": 8192,
+    "sha256": "7911cae44bc2a34f605de8536cfc952992f03b03a1e7840059901ed7d1e0ee23",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Sqlite Manufacturing"
+  },
+  {
+    "filename": "sqlite_telecom.db",
+    "file_type": "db",
+    "size_bytes": 12288,
+    "sha256": "da78902ecd2ea9aae621a3e2d85a904fa26bf2d3ce14be3ecacd72b2acd1f25a",
+    "synthetic": true,
+    "provenance": "Synthetic benchmark document created for Aura AI RAG evaluation",
+    "title": "Sqlite Telecom"
+  }
+]

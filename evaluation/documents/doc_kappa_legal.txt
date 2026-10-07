@@ -1,0 +1,10 @@
+Master Services Agreement (MSA) Standard Terms & Conditions
+
+1. Fees, Invoicing, and Payment
+Client agrees to pay all undisputed invoices within thirty (30) days from receipt date (Net 30). Late payments incur interest at the rate of 1.5% per month or the maximum statutory rate, whichever is lower.
+
+2. Limitation of Liability
+Except for breaches of confidentiality or gross negligence, neither party's cumulative liability arising out of or related to this Agreement shall exceed two times (2x) the total fees paid by Client during the preceding twelve (12) month period.
+
+3. Governing Law and Jurisdiction
+This Agreement shall be governed by, construed, and enforced in accordance with the laws of the State of Delaware, without giving effect to conflict of laws principles. Any legal action must be instituted in state or federal courts situated in Wilmington, Delaware.

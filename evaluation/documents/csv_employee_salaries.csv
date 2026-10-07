@@ -1,0 +1,7 @@
+emp_id,department,title,base_salary,bonus_pct,years_experience
+E01,Engineering,Senior Software Engineer,145000,15,7
+E02,Engineering,Staff Engineer,185000,20,12
+E03,Product,Product Manager,130000,12,6
+E04,Sales,Account Executive,95000,35,5
+E05,Marketing,Content Lead,105000,10,8
+E06,HR,HR Business Partner,115000,10,9

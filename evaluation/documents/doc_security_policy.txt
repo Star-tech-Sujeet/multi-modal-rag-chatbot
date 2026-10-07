@@ -1,0 +1,13 @@
+Enterprise Information Security and Access Control Policy
+
+Scope & Applicability:
+This security policy applies to all employees, contractors, and third-party vendors accessing corporate infrastructure.
+
+Authentication Requirements:
+All accounts must utilize multi-factor authentication (MFA) via FIDO2 hardware tokens or approved authenticator apps.
+Passwords must be a minimum of 16 characters and must be rotated every 90 days.
+Failed login attempts are locked after 5 consecutive failures.
+
+Data Retention & Auditing:
+All database access logs and security event logs must be retained for a mandatory period of 7 years in immutable WORM storage.
+Quarterly access reviews are conducted by the compliance department.

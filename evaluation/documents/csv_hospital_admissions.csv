@@ -1,0 +1,6 @@
+patient_id,admission_date,department,stay_days,billing_amount
+P-1001,2024-03-01,Cardiology,4,12400.0
+P-1002,2024-03-02,Neurology,7,24800.0
+P-1003,2024-03-05,Orthopedics,3,8900.0
+P-1004,2024-03-08,Cardiology,5,16200.0
+P-1005,2024-03-12,Oncology,11,42000.0
