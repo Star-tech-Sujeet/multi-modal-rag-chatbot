@@ -31,7 +31,7 @@
 
 ```mermaid
 flowchart TD
-    subgraph Client["Client Interface"]
+     subgraph Client["Client Interface"]
         UI["Streamlit UI (Port 8501)"]
         API_Client["FastAPI REST Client (Port 8000)"]
     end
