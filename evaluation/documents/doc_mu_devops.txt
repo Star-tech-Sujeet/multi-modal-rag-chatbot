@@ -1,0 +1,10 @@
+Site Reliability Engineering Handbook: Service Level Objectives (SLOs)
+
+1. Service Classification and Reliability Targets
+Tier-1 production services (Authentication, Payment Gateway, Core API) are governed by a 99.99% availability SLO measured on a rolling 30-day window. The corresponding error budget is exactly 0.01% (approximately 4.32 minutes of downtime per month).
+
+2. Incident Management and MTTR
+Mean Time to Detect (MTTD) must not exceed 2.0 minutes for automated alerts. Mean Time to Resolve (MTTR) for Severity-1 outages is targeted at 30 minutes. Automated rollback triggers if deployment failure rate exceeds 1.5% within 10 minutes of rollout.
+
+3. Disaster Recovery and Replication
+Database transactions are synchronously replicated across three Availability Zones. Disaster recovery testing requires an active-active cross-region Recovery Point Objective (RPO) of 0 seconds and a Recovery Time Objective (RTO) of under 15 minutes.

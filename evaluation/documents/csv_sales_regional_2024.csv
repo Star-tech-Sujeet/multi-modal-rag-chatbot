@@ -1,0 +1,10 @@
+region,product,units_sold,unit_price,total_revenue,sales_rep
+North,Widget A,150,25.0,3750.0,Alice
+North,Widget B,80,40.0,3200.0,Alice
+South,Widget A,200,25.0,5000.0,Bob
+South,Widget C,50,100.0,5000.0,Bob
+East,Widget B,110,40.0,4400.0,Charlie
+East,Widget C,90,100.0,9000.0,Charlie
+West,Widget A,300,25.0,7500.0,Diana
+West,Widget B,140,40.0,5600.0,Diana
+West,Widget C,120,100.0,12000.0,Diana

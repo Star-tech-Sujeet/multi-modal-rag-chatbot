@@ -1,0 +1,34 @@
+# Core FastAPI and web framework
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-multipart
+
+# LangChain and AI/ML libraries
+langchain==0.1.16
+langchain-openai
+langchain-community
+openai
+google-genai
+
+# Vector database
+chromadb
+
+# Document processing
+pypdf
+pymupdf
+docx2txt
+pytesseract
+Pillow
+pandas
+
+# Hybrid search - BM25 keyword search
+rank-bm25
+
+# Environment and configuration
+python-dotenv
+
+# Web UI
+streamlit
+requests

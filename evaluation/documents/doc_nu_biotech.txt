@@ -1,0 +1,10 @@
+Biomedical Genomics Laboratory Research Notes: Project Nu
+
+1. Targeted Gene Disruption Metrics
+In vitro editing assays using engineered Cas9 nucleases achieved an on-target indel frequency of 91.4% at the target locus in human embryonic kidney (HEK293T) cell lines. Whole-genome sequencing confirmed an off-target cleaving rate of less than 0.02%.
+
+2. Transfection Optimization
+Electroporation delivery using the Neon transfection system achieved 88.2% cell viability at pulse conditions of 1150 Volts, 20 millisecond width, and 2 pulses. The plasmid vector utilized was pX458 expressing enhanced green fluorescent protein (EGFP).
+
+3. Cell Culture Protocols
+Cell cultures were maintained in Dulbecco's Modified Eagle Medium (DMEM) supplemented with 10% fetal bovine serum (FBS) and 1% penicillin-streptomycin at 37 degrees Celsius and 5% CO2 humidified atmosphere.

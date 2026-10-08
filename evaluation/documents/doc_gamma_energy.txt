@@ -1,0 +1,10 @@
+Renewable Microgrid Engineering Specification (Project Gamma)
+
+1. Executive Overview
+Project Gamma operates a decentralized microgrid designed for autonomous islanded operation and grid parallel modes. The primary generation source is a 50 Megawatt bifacial monocrystalline solar array operating at an average module conversion efficiency of 23.4%.
+
+2. Energy Storage Subsystem
+Energy storage is provided by a lithium-iron-phosphate (LFP) battery energy storage system (BESS) with an aggregate capacity of 120 Megawatt-hours (MWh). The battery management system enforces a maximum depth of discharge (DoD) of 85% to ensure a 15-year operational lifecycle. Inversion is handled by eight central PCS units, each rated at 6.25 Megavolt-amperes.
+
+3. Grid Interconnection and Power Quality
+The interconnection point ties into the 115 Kilovolt regional transmission network. Total Harmonic Distortion (THD) at the point of common coupling must remain strictly below 2.8% at full load. Emergency black-start sequence initiates within 450 milliseconds of transmission line disconnect.

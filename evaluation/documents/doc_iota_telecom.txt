@@ -1,0 +1,10 @@
+Private 5G Network Infrastructure Standard (Iota-5G)
+
+1. Radio Access Network (RAN) Topology
+The Iota-5G network utilizes 3GPP Release 16 architecture operating in the 3.5 GHz (C-band) mid-band spectrum with 100 MHz channel bandwidth. Distributed antenna systems (DAS) provide 99.999% coverage across 2.4 million square feet of industrial manufacturing facilities.
+
+2. Latency and Throughput Specifications
+Measured end-to-end user-plane latency remains under 4.8 milliseconds for ultra-reliable low-latency communications (URLLC). Peak aggregate downlink speed reaches 2.4 Gigabits per second, supporting concurrent telemetry from 10,000 industrial IoT sensors.
+
+3. Security and Authentication
+Network authentication utilizes EAP-AKA' with 256-bit subscriber identity module (eSIM) encryption. The private core runs in an isolated containerized environment completely air-gapped from the public internet.

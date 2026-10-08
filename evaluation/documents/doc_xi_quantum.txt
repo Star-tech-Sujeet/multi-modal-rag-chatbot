@@ -1,0 +1,10 @@
+Superconducting Quantum Processor Specifications: Chip Xi-127
+
+1. Architecture and Qubit Layout
+The Xi-127 processor features 127 frequency-tunable transmon qubits arranged in a heavy-hexagonal lattice topology to minimize cross-talk and spurious capacitive coupling.
+
+2. Coherence Times and Gate Fidelities
+The median longitudinal relaxation time (T1) is 124 microseconds, and the transverse dephasing time (T2) is 98 microseconds across the active qubit array. Single-qubit Clifford gate fidelity is measured at 99.96%, and two-qubit cross-resonance gate fidelity averages 99.42%.
+
+3. Cryogenic Operating Conditions
+The quantum chip operates inside a dilution refrigerator at a base temperature of 14.5 millikelvin. RF control lines utilize superconducting niobium-titanium coaxial cables with 60 dB of total cryogenic attenuation.

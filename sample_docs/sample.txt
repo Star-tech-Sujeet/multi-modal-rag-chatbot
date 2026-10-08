@@ -1,0 +1,33 @@
+# Sample PDF Content
+
+This is a sample document for testing the Multi-Modal RAG system.
+
+## Introduction
+
+This document contains various information about artificial intelligence and machine learning concepts that can be used to test the retrieval and generation capabilities of our RAG system.
+
+## Key Topics
+
+### 1. Machine Learning
+Machine learning is a subset of artificial intelligence that focuses on algorithms and statistical models that enable computer systems to improve their performance on a specific task through experience.
+
+### 2. Natural Language Processing
+Natural Language Processing (NLP) is a field of artificial intelligence that gives computers the ability to understand, interpret, and manipulate human language.
+
+### 3. Computer Vision
+Computer vision is an interdisciplinary field that deals with how computers can be made to gain high-level understanding from digital images or videos.
+
+## Benefits of AI
+
+- Automation of repetitive tasks
+- Enhanced decision-making capabilities
+- Improved efficiency and productivity
+- Better customer experiences
+- Advanced data analysis
+
+## Conclusion
+
+The integration of AI technologies continues to transform various industries and create new opportunities for innovation and growth.
+
+---
+*This is a sample document created for testing purposes.*

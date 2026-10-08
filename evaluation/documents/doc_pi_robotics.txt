@@ -1,0 +1,10 @@
+Autonomous Warehouse Mobile Robot Specifications: Model Pi-250
+
+1. Physical Specifications and Mobility
+The Model Pi-250 autonomous mobile robot (AMR) features a differential drive chassis with a maximum payload capacity of 250 kilograms. Maximum operational speed is 2.2 meters per second in open warehouse aisles.
+
+2. Sensor Suite and Navigation
+Navigation is accomplished via dual 360-degree LiDAR sensors with a 30-meter detection radius, supplemented by two front-facing 3D depth cameras and wheel encoders. Obstacle avoidance stops the robot within 15 centimeters of static or dynamic impediments.
+
+3. Power System and Battery Management
+Power is supplied by a 48V 60Ah lithium-ion battery pack providing 10 hours of continuous transit under full load. Autonomous inductive opportunity charging replenishes battery capacity from 20% to 80% in 45 minutes.

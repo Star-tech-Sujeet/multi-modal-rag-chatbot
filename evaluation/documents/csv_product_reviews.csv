@@ -1,0 +1,6 @@
+review_id,product_id,rating,sentiment,verified
+REV-1,PRD-A,5,Positive,True
+REV-2,PRD-A,4,Positive,True
+REV-3,PRD-B,2,Negative,False
+REV-4,PRD-B,1,Negative,True
+REV-5,PRD-C,5,Positive,True

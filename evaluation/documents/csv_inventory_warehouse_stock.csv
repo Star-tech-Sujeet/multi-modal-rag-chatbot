@@ -1,0 +1,6 @@
+item_id,item_name,category,warehouse,qty_on_hand,reorder_level
+SKU_01,Optical Transceiver,Networking,WH_North,450,100
+SKU_02,Cat6A Cable 50m,Cables,WH_North,1200,300
+SKU_03,Server Power Supply 800W,Hardware,WH_South,85,50
+SKU_04,DDR5 32GB RAM,Memory,WH_East,620,150
+SKU_05,NVMe SSD 2TB,Storage,WH_West,310,80

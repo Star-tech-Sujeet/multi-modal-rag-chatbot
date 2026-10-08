@@ -1,0 +1,7 @@
+customer_id,tenure_months,monthly_charges,contract_type,churned
+CUST_101,24,65.5,Two-Year,No
+CUST_102,3,89.0,Month-to-Month,Yes
+CUST_103,12,45.0,One-Year,No
+CUST_104,1,99.5,Month-to-Month,Yes
+CUST_105,36,110.0,Two-Year,No
+CUST_106,8,72.0,Month-to-Month,Yes

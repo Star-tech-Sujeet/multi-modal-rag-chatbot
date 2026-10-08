@@ -1,0 +1,68 @@
+# Render Blueprint for Multi-Modal RAG Application
+#
+# ⚠️ NOTE: Blueprint deployment requires a PAID Render plan
+# For FREE tier users: Please follow the manual deployment steps in RENDER_DEPLOYMENT.md
+#
+# This file defines the infrastructure for deploying on Render
+
+services:
+  # Backend API Service
+  - type: web
+    name: multimodal-rag-backend
+    runtime: python
+    region: oregon # Change to your preferred region
+    plan: starter # Change to 'standard' or higher for production
+    branch: main # Change to your default branch
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src
+      - key: OPENAI_API_KEY
+        sync: false # Set manually in Render dashboard for security
+      - key: OPENAI_MODEL
+        value: gpt-4o
+      - key: OPENAI_VISION_MODEL
+        value: gpt-4o
+      - key: OPENAI_MINI_MODEL
+        value: gpt-4o-mini
+      - key: OPENAI_EMBEDDING_MODEL
+        value: text-embedding-3-small
+      - key: OPENAI_TEMPERATURE
+        value: 0.7
+      - key: OPENAI_MAX_TOKENS
+        value: 1000
+      - key: CHUNK_SIZE
+        value: 1000
+      - key: CHUNK_OVERLAP
+        value: 200
+      - key: MAX_FILE_SIZE_MB
+        value: 50
+      - key: CORS_ORIGINS
+        value: "*" # Update with your frontend URL in production
+      - key: DEBUG_MODE
+        value: false
+    disk:
+      name: rag-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 10 # Adjust based on your storage needs
+
+  # Frontend Streamlit Service
+  - type: web
+    name: multimodal-rag-frontend
+    runtime: python
+    region: oregon # Should match backend region
+    plan: starter
+    branch: main
+    buildCommand: pip install streamlit requests Pillow
+    startCommand: streamlit run ui/streamlit_app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: API_BASE_URL
+        fromService:
+          type: web
+          name: multimodal-rag-backend
+          envVarKey: RENDER_EXTERNAL_URL
+          # This will automatically use the backend's URL
+# Note: You'll need to update the API_BASE_URL in streamlit_app.py to use environment variable
+# Also, make sure to add your OPENAI_API_KEY in the Render dashboard for security

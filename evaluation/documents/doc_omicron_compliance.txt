@@ -1,0 +1,10 @@
+Information Security & Regulatory Compliance Audit Report: SOC 2 / GDPR
+
+1. Scope and Assessment Period
+This independent audit report covers the observation period from January 1, 2024 to December 31, 2024, evaluating security, availability, and confidentiality trust services criteria.
+
+2. Data Protection and Access Request SLA
+Data Subject Access Requests (DSAR) submitted under GDPR Article 15 are fulfilled with an average turnaround of 11 calendar days, well within the mandatory 30-day statutory deadline. Zero customer data breaches or unauthorized disclosures were recorded during the reporting cycle.
+
+3. Cryptographic Controls
+All data at rest is encrypted using AES-256 with keys rotated annually via HashiCorp Vault. All data in transit across public networks enforces TLS version 1.3 with forward secrecy ciphers.

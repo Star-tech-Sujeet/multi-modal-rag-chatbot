@@ -1,0 +1,6 @@
+server_id,rack,cpu_util_pct,ram_gb,power_draw_w,status
+SRV-01,Rack-A,42.5,128,380,Active
+SRV-02,Rack-A,88.1,256,520,HighLoad
+SRV-03,Rack-B,15.0,64,210,Active
+SRV-04,Rack-B,94.2,512,650,Critical
+SRV-05,Rack-C,0.0,128,45,Maintenance
